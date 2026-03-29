@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.appBox {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 8px;
+    width: 70%;
+}
+
+button {
+    padding: 8px;
+    background-color: #a9e5ae;
+    color: #2e7d32;
+    border-radius: 4px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.listBox {
+    margin-top: 20px;
+    border: 1px solid #2e7d32;
+    padding: 10px;
+}
+
+li {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
